@@ -42,4 +42,8 @@ public class Quiz {
         return this.questionList.size();
     }
 
+    public boolean endOfQuestion(){
+        return this.currentQuestion == questionList.size();
+    }
+
 }
